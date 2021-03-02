@@ -8,10 +8,12 @@
         Products
       </li>
     <% end %>
-    <li class="list-group-item">
-      <span class="badge"><%= @category_count %></span>
-      Categories
-    </li>
+    <%= link_to admin_categories_path do %>
+      <li class="list-group-item">
+        <span class="badge"><%= @category_count %></span>
+        Categories
+      </li>
+    <% end %>
   </ul>
 
 </div>
