@@ -1,2 +1,20 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="jumbotron">
+  <h1>Dashboard</h1>
+
+  <ul class="list-group">
+    <%= link_to admin_products_path do %>
+      <li class="list-group-item">
+        <span class="badge"><%= @product_count %></span>
+        Products
+      </li>
+    <% end %>
+    <li class="list-group-item">
+      <span class="badge"><%= @category_count %></span>
+      Categories
+    </li>
+  </ul>
+
+</div>
+
+
+
