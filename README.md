@@ -43,7 +43,7 @@ Displays the contents of the cart.
 !["Screenshot for my cart"](https://github.com/Lanuvelza/jungle-rails/blob/master/doc/my-cart.png?raw=true)
 
 ### Order Summary
-Displays the order details, once the order has been confirmed 
+Displays the order details, once the order has been confirmed. 
 !["Screenshot for order details"](https://github.com/Lanuvelza/jungle-rails/blob/master/doc/order-details.png?raw=true)
 
 ### Registration Page 
