@@ -15,6 +15,14 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 * Admin users can add and remove products or categories 
 * Admin users can view the number of existing products and categories via the dashboard
 
+## Tech Stack 
+
+Front-End: Ruby, JQuery-Rails, SCSS 
+
+Back-End: Rails, PSQL
+
+Testing: Rspec, Capybara, Poltergiest, Phantom 
+
 ## Final Product
 
 ## User Section 
